@@ -1,0 +1,19 @@
+name: ap_finance
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.12
+  - pip
+  - qiskit>=1.0.2
+  - matplotlib
+  - notebook
+  - numpy
+  - ipywidgets
+  - pylatexenc
+  - pandas
+  - tqdm
+  - pip:
+    - qiskit-algorithms
+    - qiskit-optimization
+    - qiskit_finance
